@@ -12,7 +12,7 @@ from nltk.corpus import stopwords
 from sklearn.decomposition import NMF
 
 
-summary length = 100
+summary_length = 100
 
 #Removing Punctuation
 def strip_punctuation(s):
