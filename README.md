@@ -20,4 +20,3 @@ Top scoring sentences are included in the document summary until required summar
 3. Run Preprocessing.py for pre-processing the input documents.
 4. Run NNDSVD_TR.py  for generating the summary of the text using Term-oriented method. Run NNDSVD_TP.py  for generating the summary of the text using Topic-oriented method.
 5. In all the .py files, change the current directory to working directory of your system.
-
