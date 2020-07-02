@@ -37,7 +37,7 @@ def preprocess(inputFile,f_name):
 
         return(words_count,len(sentences_backup),sentences)
 
-def create_summary(inputFile,f_name,comp_rate):
+def create_summary(inputFile,f_name):
         termSentFile = ".\\Pre_Processed\\"+f_name.replace('.txt','')+".csv"
         data = np.genfromtxt(termSentFile, dtype='float64', delimiter=',', names=None)
         A = np.asarray(data,dtype = 'float64')
@@ -105,5 +105,5 @@ os.chdir("\\path to working directory")
 for f in os.listdir(".\\Documents"):
     print(f)
     inputFile = ".\\Documents\\"+f
-    create_summary(inputFile,f,3)
+    create_summary(inputFile,f)
 
