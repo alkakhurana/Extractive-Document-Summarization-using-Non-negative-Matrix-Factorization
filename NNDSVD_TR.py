@@ -11,6 +11,7 @@ from nltk import tokenize
 from nltk.corpus import stopwords
 from sklearn.decomposition import NMF
 
+summary_length = 100
 
 #Removing Punctuation
 def strip_punctuation(s):
@@ -93,7 +94,7 @@ def create_summary(inputFile,f_name):
         for i in range(1,no_of_sentences+1):
             for j in range(no_of_sentences):
                 if(temp_ranks[j] == i):
-                        if(words < 100):
+                        if(words < summary_length):
                             words = words + len(word_tokenize(strip_punctuation(sentences[j])))
                             file_object.write(sentences[j].replace('\n',' '))
                             file_object.write('\n')
