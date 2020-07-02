@@ -88,7 +88,7 @@ def create_summary(inputFile,f_name):
         for j in range(len(sentences)):
                 temp_ranks[x[j]]=len(sentences)-j
 
-        name = ".\\Summaries\\"+"system1_"+f_name
+        name = ".\\Summaries\\"+"system2_"+f_name
         file_object = open(name,"w")
         words=0
         for i in range(1,no_of_sentences+1):
