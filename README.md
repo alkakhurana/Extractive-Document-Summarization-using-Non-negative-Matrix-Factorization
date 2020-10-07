@@ -23,7 +23,7 @@ Top scoring sentences are included in the document summary until required summar
   organization={Springer}
 }
 ```
-**Pipeline:**
+# Pipeline:
 1. Clone the complete directory.
 2. Put the documents in the Documents folder for which summary is to be generated.
 3. In all the .py files, change the current directory to working directory of your system.
