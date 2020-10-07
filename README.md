@@ -1,9 +1,9 @@
 <h1>Extractive Document Summarization using Non-negative Matrix Factorization</h1>
 
-This repository contains Python (v 3.6) scripts for implementation of NNDSVD-TR and NNDSVD-TP methods for Single document extractive summarization.
+This repository contains Python (v 3.6) scripts for implementation of NMF-TR and NMF-TP methods for Single document extractive summarization.
 
-**NNDSVD-TR**: Term-oriented Extractive Summarization
-**NNDSVD-TP**: Topic-oriented Extractive Summarization
+**NMF-TR**: Term-oriented Extractive Summarization
+**NMF-TP**: Topic-oriented Extractive Summarization
 
 
 **Author**:  Alka Khurana
