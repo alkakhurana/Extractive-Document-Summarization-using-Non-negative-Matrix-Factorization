@@ -1,21 +1,18 @@
 <h1>Extractive Document Summarization using Non-negative Matrix Factorization</h1>
 
 This repository contains Python (v 3.6) scripts for implementation of NMF-TR and NMF-TP methods for Single document extractive summarization.
-<br/>
-**NMF-TR**: Term-oriented Extractive Summarization
-<br/>
-**NMF-TP**: Topic-oriented Extractive Summarization
 
-<br/>
-**Author**:  Alka Khurana
-**Acknowledgement**: Vasudha Bhatnagar
-<br/>
-**Description:**
+**NMF-TR**: Term-oriented Extractive Summarization  
+**NMF-TP**: Topic-oriented Extractive Summarization  
+**Author**:  Alka Khurana  
+**Acknowledgement**: Vasudha Bhatnagar  
+
+**Description:**  
 Both the algorithms generate score for each sentence (TR-score, TP-score) in the input document and present the sentences in the descending order of their scores.
-Top scoring sentences are included in the document summary until required summary length is complete. 
-<br/>
-# Citation:
-<br/>
+Top scoring sentences are included in the document summary until required summary length is complete.   
+
+# Citation:  
+
 ```
 @inproceedings{khurana2019extractive,
   title={Extractive Document Summarization using Non-negative Matrix Factorization},
